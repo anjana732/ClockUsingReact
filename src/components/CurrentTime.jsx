@@ -2,7 +2,7 @@ function CurrentTime(){
     let time = new Date()
     return(
         <>
-            <h3>The current time is: {time.toLocaleDateString()} - {time.toLocaleTimeString()} </h3>
+            <p>The current time is: {time.toLocaleDateString()} - {time.toLocaleTimeString()} </p>
         </>
     )
 }
